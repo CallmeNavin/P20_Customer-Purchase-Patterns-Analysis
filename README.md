@@ -5,6 +5,7 @@
 **A. Project Overview**
 
 - This project applies Market Basket Analysis on a real-world retail dataset to uncover product associations and customer purchase patterns, aiming to support cross-selling strategies and optimize product placement.
+- Flow: Transaction table → Basket → Encoding (OneHot) → Apriori/FP-growth → Association Rules (support, confidence, lift) → visualize insight.
 
 **B. Dataset Information**
 
