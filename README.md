@@ -20,10 +20,16 @@ _**Source**_
 **C. Methodology**
 
 - Data Cleaning:
-  + Column Type
-  + %Blank
-  + Outlier
-- Export cleaned data & import to Power BI for visualizing and finding insights
+  + Column Type:
+    - CustomerID: float → Convert to string
+  + %Blank:
+    - CustomerID missing ~25% → Drop missing rows
+    - Description missing ~0.27% → Fill missing rows by "Unknow"
+  + Outliers:
+    - Quantity: 10.82% → Drop rows which have Quantity <= 0
+    - UnitPrice: 7.31% → Drop rows which have UnitPrice <= 0
+  + Duplicate: 0.97% → Drop duplicate rows
+- Export Cleaned Data & import to Power BI for visualizing and finding insights
 
 **D. Key Findings & Actionable Plans**
 
