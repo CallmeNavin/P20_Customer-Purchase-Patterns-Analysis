@@ -32,7 +32,7 @@ _**Source**_
   + Duplicate: 0.97% → Drop duplicate rows
   + Convert 'StockCode' column to String
 - Export Cleaned Data
-- Use Apriori for Market Basket Analysis
+- Use FPGrowth for Market Basket Analysis
 
 **D. Key Findings & Actionable Plans**
 
