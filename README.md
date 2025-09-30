@@ -30,7 +30,9 @@ _**Source**_
     - Quantity: 10.82% → Drop rows which have Quantity <= 0
     - UnitPrice: 7.31% → Drop rows which have UnitPrice <= 0
   + Duplicate: 0.97% → Drop duplicate rows
-- Export Cleaned Data & import to Power BI for visualizing and finding insights
+  + Convert 'StockCode' column to String
+- Export Cleaned Data
+- Use Apriori for Market Basket Analysis
 
 **D. Key Findings & Actionable Plans**
 
